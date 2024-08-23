@@ -1,4 +1,16 @@
-html {
-  height: 100%;
-  width: 100%;
+body {
+  background-color: black;
+  color: white;
+  font-family: -apple-system, 'Segoe UI', sans-serif;
+  margin: 16px min(10%, 48px);
+}
+
+main {
+  display: flex;
+  justify-content: space-between;
+}
+
+main>div:last-child {
+  width: min(40%, 175px);
+  margin-top: 40px;
 }
