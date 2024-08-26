@@ -1,9 +1,4 @@
-body {
-  background-color: black;
-  color: white;
-  font-family: -apple-system, 'Segoe UI', sans-serif;
-  margin: 16px min(10%, 48px);
-}
+
 
 main {
   display: flex;
