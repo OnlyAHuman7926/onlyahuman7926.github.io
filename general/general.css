@@ -4,3 +4,23 @@ body {
   font-family: -apple-system, 'Segoe UI', sans-serif;
   margin: 16px min(10%, 48px);
 }
+
+nav {
+  width: min(40%, 200px);
+  margin-top: 40px;
+  margin-left: 40px;
+}
+
+a {
+  text-decoration: none;
+  color: #54ceff;
+}
+a:hover {
+  text-decoration: underline;
+}
+a:active {
+  color: #27c2ff;
+}
+a:visited {
+  color: #54ceff;
+}

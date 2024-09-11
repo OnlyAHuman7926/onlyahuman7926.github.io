@@ -1,11 +1,7 @@
 
 
-main {
+.wrapper {
   display: flex;
   justify-content: space-between;
 }
 
-main>div:last-child {
-  width: min(40%, 175px);
-  margin-top: 40px;
-}

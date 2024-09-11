@@ -8,27 +8,33 @@
   <link rel="stylesheet" href="general/general.css">
   <link href="style.css" rel="stylesheet" type="text/css" />
   <script src="general/dot.js" defer></script>
+  <script src="project/projects.js"></script>
 </head>
 
 <body>
-  <main>
-    <div>
-      <div>
-        <h1>Hello! </h1>
-        <div>I am OnlyAHuman, a soidnf that does tkhae, aslid, and thaoiskdm. I believe that it'll take me forever to
-          finish this paragraph, so asiduncvsoiljdofhosdpdijouigfojcipvouijn</div>
-        <h1>Projects</h1>
-        <div>I'll fetch the projects from a JSON later. </div>
-      </div>
-    </div>
-    <div>
+  <div class="wrapper">
+    <main>
+      <h1>Hello! </h1>
+      <p>I am OnlyAHuman, an international high school student in China. I am interested in math, programming, and
+        music, and my best sport is badminton. </p>
+      <p>This website is in construction and I'll add more later. Stay tuned! </p>
+      <h1>Projects</h1>
+      <p>I have made or participated in lots of projects, including VStart, LightChat, Pitch Changer, etc. Visit <a
+          href="projects.html">this page</a> to see <span id="project-count">n</span> of them! </p>
+      <script>
+        getProjects().then(
+          res => document.getElementById("project-count").innerHTML = res.length
+        );
+      </script>
+    </main>
+    <nav>
       <div style="display: flex; justify-content: center;">
         <img src="profile.jpeg" style="width: 100px; height: 100px; border-radius: 50px;">
       </div>
       <h1 style="margin-block-start: 0.5em; margin-block-end: 0.5em;">Ryan</h1>
       <div>(OnlyAHuman)</div>
-    </div>
-  </main>
+    </nav>
+  </div>
 </body>
 
 </html>
