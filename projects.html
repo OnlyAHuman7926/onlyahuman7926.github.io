@@ -18,10 +18,7 @@
     getProjects()
       .then(projects => {
         projects.forEach(project => {
-          let a = document.createElement("div");
-          a.classList.add("project-card");
-          a.innerHTML = formatProject(project);
-          document.body.append(a);
+          formatProject(project);
         })
       });
   </script>

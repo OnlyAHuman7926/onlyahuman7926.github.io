@@ -7,9 +7,15 @@
   },
   {
     "name": "Test Manager",
-    "description": "Manage your tests at one platform and set a timer for each! \nI first thought of this project when I was taking a test in the classroom. I wanted to make a giant clock on the computer screen in my classroom, so I built one <a href='https://onlyahuman7926.github.io/Clock'>here</a>. However, since people were saying that this can be a timer for other things, I added more features such as adding names to tests and stuff. (now it's more like a todo list)",
+    "description": "Manage your tests at one platform and set a timer for each! \nI first thought of this project when I was taking a test in the classroom. I wanted to make a giant clock on the computer screen in my classroom, so I built one <a href='https://onlyahuman7926.github.io/Clock' target='_blank'>here</a>. However, since people were saying that this can be a timer for other things, I added more features such as adding names to tests and stuff. (now it's more like a todo list)",
     "pic": "/profile.jpeg",
     "link": "https://onlyahuman7926.github.io/tm"
+  },
+  {
+    "name": "Mandelbrot Fractal",
+    "description": "The Mandelbrot fractal is a famous thing in mathematics known for its fine details. Although it may be a bit slow and only supports zooming, I've made it look as nice as possible. ",
+    "pic": "/project/pics/dark_mandelbrot.png",
+    "link": "https://onlyahuman7926.github.io/Mandelbrot-Set"
   },
   {
     "name": "LightChat",
