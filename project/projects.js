@@ -23,14 +23,14 @@ function formatProject(project) {
   card.classList.add("project-card");
   let div = document.createElement("div");
   div.innerHTML = `<h1>${project.name}</h1><div>${project.description}</div>`;
-  div.addEventListener("click", e => {
-    if (e.target.nodeName == "A") return;
-    if (project.link) window.open(project.link, "_blank");
-    else alert('This project isn\'t accessible yet. It\'s either because it\'s not ready to be shown publicly or it was once hosted on Replit.');
-  })
   card.append(div);
   let img = new Image();
   img.src = project.pic;
   card.append(img);
+  card.addEventListener("click", e => {
+    if (e.target.nodeName == "A") return;
+    if (project.link) window.open(project.link, "_blank");
+    else alert('This project isn\'t accessible yet. It\'s either because it\'s not ready to be shown publicly or it was once hosted on Replit.');
+  })
   document.body.append(card);
 }

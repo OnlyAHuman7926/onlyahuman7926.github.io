@@ -20,13 +20,13 @@
   {
     "name": "LightChat",
     "description": "A light-mode chat that features half of Discord. Aside from the ability to send messages and a UI that I think was amazing, it has a type indicator, MarkDown formatting support, an always-changing background, and the ability to change the theme color from white to any other color. ",
-    "pic": "/profile.jpeg",
+    "pic": "/projects/pics/lightbulb.png",
     "link": ""
   },
   {
     "name": "VStart",
     "description": "My first ever coding project. VStart is a browser homepage that contains what most home pages have, and it's cleaner than most others (2345 home page, etc.).",
-    "pic": "/profile.jpeg"
+    "pic": "/projects/pics/vstart.avif"
   },
   {
     "name": "Python C++ Compiler",
